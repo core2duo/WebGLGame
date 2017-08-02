@@ -1,0 +1,16 @@
+.game-controls {
+  margin: 5px 0 5px 30px;
+}
+.game-controls__start {
+  display: block;
+  height: 30px;
+  margin: 10px auto;
+  padding: 0 10px;
+  font: 500 16px 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+}
+.game-controls__message {
+  min-height: 20px;
+  font-weight: 500;
+}

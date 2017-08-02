@@ -1,0 +1,14 @@
+.chat-messages {
+  margin: 5px 0;
+  padding: 0;
+  max-height: 600px;
+  overflow-y: auto;
+  list-style-type: none;
+}
+.chat-messages__message {
+  display: block;
+  padding: 5px 10px;
+}
+.chat-messages__username {
+  font-weight: 500;
+}

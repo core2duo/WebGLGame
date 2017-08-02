@@ -1,0 +1,24 @@
+.chat-form {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.chat-form__text {
+  padding: 10px 0 20px;
+}
+.chat-form__input {
+  display: block;
+  height: 30px;
+  padding: 2px 5px;
+  font: 300 16px 'Roboto', sans-serif;
+  line-height: 30px;
+}
+.chat-form__input_text {
+  width: 70%;
+  float: left;
+  outline: none;
+}
+.chat-form__input_button {
+  width: 30%;
+  float: right;
+}
