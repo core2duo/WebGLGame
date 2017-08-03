@@ -1,6 +1,6 @@
 {
   "name": "webglgame",
-  "homepage": "https://core2duo.github.io/webglgame",
+  "homepage": "https://core2duo.github.io/WebGLGame",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
