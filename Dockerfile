@@ -1,11 +1,14 @@
 FROM node:6.11.1
 
-WORKDIR /dbuild
+WORKDIR /app
 
-COPY . /dbuild
-
+# Install app dependencies
+# Docker will run npm install only if packages.json changes
+COPY package.json /app
 RUN npm install
 
-EXPOSE 4200
+# Bundle app source
+COPY . /app
 
+EXPOSE 3000
 CMD ["npm", "start"]
